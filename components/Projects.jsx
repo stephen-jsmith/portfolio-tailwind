@@ -10,7 +10,7 @@ const projects = () => {
                 <p className="text-xl tracking-widest uppercase text-utGray">
                     Projects
                 </p>
-                <h2 className="py-4 text-utOrange">What I've Been Up To</h2>
+                <h2 className="py-4 text-utOrange">What I&apos;ve Been Up To</h2>
                 <div className="grid md:grid-cols-2 gap-8">
                     <ProjectItem
                         title="LHR 2021-22 Build Cycle"

@@ -32,7 +32,7 @@ const About = () => {
                         integrate to help make contributions from day one.
                     </p>
                     <p className="py-2 text-utGray underline cursor-pointer">
-                        To view Stephen's resume, click here
+                        To view Stephen&apos;s resume, click here
                     </p>
                 </div>
                 <div className="z-0 w-full h-auto m-auto shadow-xl rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">

@@ -18,13 +18,13 @@ const Main = () => {
                         Better equipped. Better prepared.
                     </p>
                     <h1 className="py-4 text-gray-800">
-                        Hi, I'm <span className="text-utOrange">Stephen</span>
+                        Hi, I&apos;m <span className="text-utOrange">Stephen</span>
                     </h1>
                     <h1 className="sm:py-4 text-gray-800">
                         An Architectural Engineer
                     </h1>
                     <p className="py-4 text-utGray max-w-[70%] m-auto">
-                        I'm a current Sophomore in the UT Austin Architectural
+                        I&apos;m a current Sophomore in the UT Austin Architectural
                         Engineering program. In my free time, I enjoy a variety
                         of hobbies, from machining to programming, and a little
                         of everything in between. The result of my experiences

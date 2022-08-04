@@ -124,7 +124,7 @@ useEffect (()=>{
                         </ul>
                         <div className="pt-40">
                             <p className="uppercase tracking-widest text-utOrange">
-                                Let's Connect
+                                Let&apos;s Connect
                             </p>
                             <div className="flex left-0 items-center justify-between my-4 w-full sm:w-[80%] mx-[-8%] sm:mx-auto">
                                 <div className="rounded-full shadow-lg shadow-utGrey p-3 cursor-pointer hover:scale-105 ease-in duration-100 ">
