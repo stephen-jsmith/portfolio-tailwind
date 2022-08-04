@@ -1,5 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import python from "/public/skills/python.png";
+import revit from "/public/skills/revit.png";
+import quicksight from "/public/skills/quicksight.png";
+import html from "/public/skills/html.png";
+import mysql from "/public/skills/mysql.png";
+import solidworks from "/public/skills/solidworks.png";
+import tailwindcss from "/public/skills/tailwindcss.png";
+import github from "/public/skills/github.png";
 
 const Skills = () => {
     return (
@@ -14,7 +22,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div>
                                 <Image
-                                    src="/../public/skills/python.png"
+                                    src={python}
                                     alt="/"
                                     width="64"
                                     height="64"
@@ -29,7 +37,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div>
                                 <Image
-                                    src="/../public/skills/revit.png"
+                                    src={revit}
                                     alt="/"
                                     width="64"
                                     height="64"
@@ -44,7 +52,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div>
                                 <Image
-                                    src="/../public/skills/quicksight.png"
+                                    src={quicksight}
                                     alt="/"
                                     width="64"
                                     height="64"
@@ -59,7 +67,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div>
                                 <Image
-                                    src="/../public/skills/html.png"
+                                    src={html}
                                     alt="/"
                                     width="64"
                                     height="64"
@@ -75,7 +83,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div>
                                 <Image
-                                    src="/../public/skills/mysql.png"
+                                    src={mysql}
                                     alt="/"
                                     width="64"
                                     height="64"
@@ -90,7 +98,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div>
                                 <Image
-                                    src="/../public/skills/solidworks.png"
+                                    src={solidworks}
                                     alt="/"
                                     width="64"
                                     height="64"
@@ -105,7 +113,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div>
                                 <Image
-                                    src="/../public/skills/tailwindcss.png"
+                                    src={tailwindcss}
                                     alt="/"
                                     width="64"
                                     height="64"
@@ -120,7 +128,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div>
                                 <Image
-                                    src="/../public/skills/github.png"
+                                    src={github}
                                     alt="/"
                                     width="64"
                                     height="64"
