@@ -62,15 +62,17 @@ const Navbar = () => {
                         <Link href="/">
                             <li className="navItem">Home</li>
                         </Link>
-                        <a href="/StephenSmithResume.pdf" target="_blank" download>
+                        <a
+                            href="/StephenSmithResume.pdf"
+                            target="_blank"
+                            download
+                        >
                             <li className="navItem">Resume</li>
                         </a>
                         <Link href="/">
                             <li className="navItem">Projects</li>
                         </Link>
-                        <Link
-                            href="/"
-                        >
+                        <Link href="/">
                             <li className="navItem">Contact</li>
                         </Link>
                     </ul>
@@ -144,21 +146,46 @@ const Navbar = () => {
                                 Let&apos;s Connect
                             </p>
                             <div className="flex left-0 items-center justify-between my-4 w-full sm:w-[80%] mx-[-8%] sm:mx-auto">
-                                <div className="mobileIcon">
-                                    <RiLinkedinBoxFill size={20} />
-                                </div>
-                                <div className="mobileIcon">
-                                    <RiDiscordFill size={20} />
-                                </div>
-                                <div className="mobileIcon">
-                                    <RiInstagramLine size={20} />
-                                </div>
-                                <div className="mobileIcon">
-                                    <RiGithubFill size={20} />
-                                </div>
-                                <div className="mobileIcon">
-                                    <RiMailAddLine size={20} />
-                                </div>
+                                <a
+                                    href="https://www.linkedin.com/in/stephen-smith-57b026220/"
+                                    target="_blank"
+                                >
+                                    <div className="mobileIcon">
+                                        <RiLinkedinBoxFill size={20} />
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://discordapp.com/users/539166170239205396"
+                                    target="_blank"
+                                >
+                                    <div className="mobileIcon">
+                                        <RiDiscordFill size={20} />
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://www.instagram.com/skippy__stephen/"
+                                    target="_blank"
+                                >
+                                    <div className="mobileIcon">
+                                        <RiInstagramLine size={20} />
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://github.com/stephen-jsmith"
+                                    target="_blank"
+                                >
+                                    <div className="mobileIcon">
+                                        <RiGithubFill size={20} />
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://github.com/stephen-jsmith"
+                                    target="_blank"
+                                >
+                                    <div className="mobileIcon">
+                                        <RiMailAddLine size={20} />
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
