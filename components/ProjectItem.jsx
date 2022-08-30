@@ -2,38 +2,26 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-{
-    /*                  Hover me
-     */
-}
-
-const ProjectItem = ({ title, backgroundImg, tech, projectUrl }) => {
+const ProjectItem = ({ title, backgroundImg, tech, projectUrl, alt }) => {
     return (
-        <Link href={projectUrl}>
-
-            <div className="flex justify-center">
-                <div className="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
-                <Image
-                        className="w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
-                        src={backgroundImg}
-                        alt="/"
-                    />
-                    <div className="p-6 flex flex-col justify-start">
-                        <h5 className="text-gray-900 text-xl font-medium mb-2">
-                            Card title
-                        </h5>
-                        <p className="text-gray-700 text-base mb-4">
-                            This is a wider card with supporting text below as a
-                            natural lead-in to additional content. This content
-                            is a little bit longer.
-                        </p>
-                        <p className="text-gray-600 text-xs">
-                            Last updated 3 mins ago
-                        </p>
-                    </div>
-                </div>
+        <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group transition hover:ease-in duration-200 hover:bg-utOrange cursor-pointer">
+            <Image
+                className="rounded-xl transition hover:ease-in duration-200 group-hover:opacity-10"
+                src={backgroundImg}
+                alt={alt}
+            />
+            <div className="hidden transition delay-1000 hover:ease-in group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+                <h3 className="text-2xl text-slate-50  tracking-wider text-center">
+                    {title}
+                </h3>
+                <p className="pb-4 pt-2 text-slate-50 text-center">{tech}</p>
+                <Link href={projectUrl}>
+                    <p className="text-center py-3 rounded-lg bg-utGray text-slate-50 font-bold text-lg">
+                        More Info
+                    </p>
+                </Link>
             </div>
-        </Link>
+        </div>
     );
 };
 

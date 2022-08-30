@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import python from "/public/skills/python.png";
-import revit from "/public/skills/revit.png";
+import manual from "/public/skills/hardhat.png";
 import quicksight from "/public/skills/quicksight.png";
 import html from "/public/skills/html.png";
 import mysql from "/public/skills/mysql.png";
@@ -37,14 +37,14 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div>
                                 <Image
-                                    src={revit}
+                                    src={manual}
                                     alt="/"
                                     width="64"
                                     height="64"
                                 />
                             </div>
                             <h3 className="flex flex-col items-center justify-center text-utGray">
-                                Revit
+                                Manual Machining
                             </h3>
                         </div>
                     </div>

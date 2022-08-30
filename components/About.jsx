@@ -23,18 +23,22 @@ const About = () => {
                         led to incredible finished components.
                     </p>
                     <p className="py-2">
-                        By working as a technical intern for Quantum Computing,
-                        Inc. this past year, Stephen has developed a multitude
-                        of hard and soft skills. Hard skills wise, he has
-                        developed an understanding of python data science,
-                        MySQL/database management, HTML and CSS, and others. On
-                        the side of soft skills, Stephen has learned how a
-                        corporate office operates, and how to seamlessly
-                        integrate to help make contributions from day one.
+                        By working as a technical intern for{" "}
+                        <span className="text-qciPurple font-serif">
+                            {" "}
+                            Quantum Computing, Inc.
+                        </span>{" "}
+                        this past year, Stephen has developed a multitude of
+                        hard and soft skills. Hard skills wise, he has developed
+                        an understanding of python data science, MySQL/database
+                        management, HTML and CSS, and others. On the side of
+                        soft skills, Stephen has learned how a corporate office
+                        operates, and how to seamlessly integrate to help make
+                        contributions from day one.
                     </p>
-                    <p className="py-2 text-utGray underline cursor-pointer">
+                    <a href="/StephenSmithResume.pdf" target="_blank" download className="py-2 text-utGray underline cursor-pointer">
                         To view Stephen&apos;s resume, click here
-                    </p>
+                    </a>
                 </div>
                 <div className="z-0 w-full h-auto m-auto shadow-xl rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
                     <Image

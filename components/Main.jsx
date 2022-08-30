@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 import {
     RiCloseLine,
     RiMenu4Fill,
@@ -34,19 +35,27 @@ const Main = () => {
                         me, feel free to explore my portfolio!
                     </p>
                     <div className="flex items-center max-w-[500px]  justify-between m-auto py-4">
-                        <div className="rounded-full shadow-lg shadow-utGrey p-6 cursor-pointer bg-white hover:scale-110 hover:bg-white ease-in duration-200 ">
+                        <Link href="https://www.linkedin.com/in/stephen-smith-57b026220/">
+                        <div className="mainIcon">
                             <RiLinkedinBoxFill size={30} />
                         </div>
-                        <div className="rounded-full shadow-lg shadow-utGrey p-6 cursor-pointer hover:scale-110 ease-in duration-200 ">
+                        </Link>
+                        <Link href="https://discordapp.com/users/539166170239205396">
+                        <div className="mainIcon">
                             <RiDiscordFill size={30} />
                         </div>
-                        <div className="rounded-full shadow-lg shadow-utGrey p-6 cursor-pointer hover:scale-110 ease-in duration-200 ">
+                        </Link>
+                        <Link href="https://github.com/stephen-jsmith">
+                        <div className="mainIcon">
                             <RiInstagramLine size={30} />
                         </div>
-                        <div className="rounded-full shadow-lg shadow-utGrey p-6 cursor-pointer hover:scale-110 ease-in duration-200 ">
+                        </Link>
+                        <Link href="https://github.com/stephen-jsmith">
+                        <div className="mainIcon">
                             <RiGithubFill size={30} />
                         </div>
-                        <div className="rounded-full shadow-lg shadow-utGrey p-6 cursor-pointer hover:scale-110 ease-in duration-200 ">
+                        </Link>
+                        <div className="mainIcon">
                             <RiMailAddLine size={30} />
                         </div>
                     </div>
