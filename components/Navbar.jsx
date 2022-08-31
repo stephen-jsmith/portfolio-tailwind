@@ -66,6 +66,7 @@ const Navbar = () => {
                             href="/StephenSmithResume.pdf"
                             target="_blank"
                             download
+                            rel="noreferrer"
                         >
                             <li className="navItem">Resume</li>
                         </a>
@@ -149,6 +150,7 @@ const Navbar = () => {
                                 <a
                                     href="https://www.linkedin.com/in/stephen-smith-57b026220/"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     <div className="mobileIcon">
                                         <RiLinkedinBoxFill size={20} />
@@ -157,6 +159,7 @@ const Navbar = () => {
                                 <a
                                     href="https://discordapp.com/users/539166170239205396"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     <div className="mobileIcon">
                                         <RiDiscordFill size={20} />
@@ -165,6 +168,7 @@ const Navbar = () => {
                                 <a
                                     href="https://www.instagram.com/skippy__stephen/"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     <div className="mobileIcon">
                                         <RiInstagramLine size={20} />
@@ -173,6 +177,7 @@ const Navbar = () => {
                                 <a
                                     href="https://github.com/stephen-jsmith"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     <div className="mobileIcon">
                                         <RiGithubFill size={20} />
@@ -181,6 +186,7 @@ const Navbar = () => {
                                 <a
                                     href="https://github.com/stephen-jsmith"
                                     target="_blank"
+                                    rel="noreferrer"
                                 >
                                     <div className="mobileIcon">
                                         <RiMailAddLine size={20} />

@@ -35,22 +35,22 @@ const Main = () => {
                         me, feel free to explore my portfolio!
                     </p>
                     <div className="flex items-center max-w-[500px]  justify-between m-auto py-4">
-                        <a href="https://www.linkedin.com/in/stephen-smith-57b026220/" target="_blank">
+                        <a href="https://www.linkedin.com/in/stephen-smith-57b026220/" target="_blank" rel="noreferrer">
                         <div className="mainIcon">
                             <RiLinkedinBoxFill size={30} />
                         </div>
                         </a>
-                        <a href="https://discordapp.com/users/539166170239205396" target="_blank">
+                        <a href="https://discordapp.com/users/539166170239205396" target="_blank" rel="noreferrer">
                         <div className="mainIcon">
                             <RiDiscordFill size={30} />
                         </div>
                         </a>
-                        <a href="https://www.instagram.com/skippy__stephen/" target="_blank">
+                        <a href="https://www.instagram.com/skippy__stephen/" target="_blank" rel="noreferrer">
                         <div className="mainIcon">
                             <RiInstagramLine size={30} />
                         </div>
                         </a>
-                        <a href="https://github.com/stephen-jsmith" target="_blank">
+                        <a href="https://github.com/stephen-jsmith" target="_blank" rel="noreferrer">
                         <div className="mainIcon">
                             <RiGithubFill size={30} />
                         </div>
