@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import portfolio from "../public/assets/images/projects/PortfolioProjectImage.png";
-import LHR from "../public/assets/images/projects/FrameTubes.jpg";
+import portfolio from "../public/assets/images/projectThumbnails/PortfolioProjectImage.png";
+import LHR from "../public/assets/images/projectThumbnails/FrameTubes.jpg";
 import ProjectItem from "./ProjectItem";
 
 const projects = () => {

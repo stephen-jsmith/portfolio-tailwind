@@ -23,11 +23,10 @@ const About = () => {
                         led to incredible finished components.
                     </p>
                     <p className="py-2">
-                        By working as a technical intern for{" "}
+                        By working as a technical intern for
                         <span className="text-qciPurple font-serif">
-                            {" "}
                             Quantum Computing, Inc.
-                        </span>{" "}
+                        </span>
                         this past year, Stephen has developed a multitude of
                         hard and soft skills. Hard skills wise, he has developed
                         an understanding of python data science, MySQL/database
@@ -36,7 +35,12 @@ const About = () => {
                         operates, and how to seamlessly integrate to help make
                         contributions from day one.
                     </p>
-                    <a href="/StephenSmithResume.pdf" target="_blank" download className="py-2 text-utGray underline cursor-pointer">
+                    <a
+                        href="/StephenSmithResume.pdf"
+                        target="_blank"
+                        download
+                        className="py-2 text-utGray underline cursor-pointer"
+                    >
                         To view Stephen&apos;s resume, click here
                     </a>
                 </div>
