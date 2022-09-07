@@ -70,10 +70,10 @@ const Navbar = () => {
                         >
                             <li className="navItem">Resume</li>
                         </a>
-                        <Link href="/">
+                        <Link href="/#projects">
                             <li className="navItem">Projects</li>
                         </Link>
-                        <Link href="/">
+                        <Link href="/#contact">
                             <li className="navItem">Contact</li>
                         </Link>
                     </ul>
@@ -124,23 +124,28 @@ const Navbar = () => {
                     </div>
                     <div className="py-4 flex flex-col">
                         <ul className="uppercase">
+                            <div  onClick={handleNav}>
+                                <Link href="/">
+                                    <li className="mobileMenuNavItem">Home</li>
+                                </Link>
+                            </div>
+                            <div onClick={handleNav}>
+                                <Link href="/#projects">
+                                    <li className="mobileMenuNavItem">
+                                        Projects
+                                    </li>
+                                </Link>
+                            </div>
                             <Link href="/">
-                                <li className="mobileMenuNavItem">Home</li>
+                                <li className="mobileMenuNavItem">Resume</li>
                             </Link>
-                            <Link href="/">
-                                <li className="mobileMenuNavItem">
-                                    Experience
-                                </li>
-                            </Link>
-                            <Link href="/">
-                                <li className="mobileMenuNavItem">Education</li>
-                            </Link>
-                            <Link href="/">
-                                <li className="mobileMenuNavItem">Projects</li>
-                            </Link>
-                            <Link href="/">
-                                <li className="mobileMenuNavItem">Contact</li>
-                            </Link>
+                            <div onClick={handleNav}>
+                                <Link href="/#contact">
+                                    <li className="mobileMenuNavItem">
+                                        Contact
+                                    </li>
+                                </Link>
+                            </div>
                         </ul>
                         <div className="pt-40">
                             <p className="uppercase tracking-widest text-utOrange">

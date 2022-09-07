@@ -24,8 +24,8 @@ const About = () => {
                     </p>
                     <p className="py-2">
                         By working as a technical intern for
-                        <span className="text-qciPurple font-serif">
-                            Quantum Computing, Inc.
+                        <span className="text-qciPurple font-serif mx-1">
+                            Quantum Computing, Inc. 
                         </span>
                         this past year, Stephen has developed a multitude of
                         hard and soft skills. Hard skills wise, he has developed

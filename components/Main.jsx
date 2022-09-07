@@ -56,7 +56,9 @@ const Main = () => {
                         </div>
                         </a>
                         <div className="mainIcon">
+                            <Link href="/#contact">
                             <RiMailAddLine size={30} />
+                            </Link>
                         </div>
                     </div>
                 </div>
