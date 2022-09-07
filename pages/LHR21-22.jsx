@@ -47,7 +47,7 @@ const lhr2122 = () => {
                         While on the manufacturing team, I have been in charge
                         of making critical components for the internal
                         combustion car. Several of these components have had
-                        tolerances of at most 0.005", and have utilized several
+                        tolerances of at most 0.005`&quot;`, and have utilized several
                         different methods of manufacturing. The method that I
                         enjoy the most, by far, is manual lathe work. It is
                         incredibly gratifying to watch a cut with proper feeds
