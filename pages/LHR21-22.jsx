@@ -67,43 +67,43 @@ const lhr2122 = () => {
                         Scroll down to see some behind the scenes pictures of
                         the manufacturing process!
                     </p>
-                    <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
-                        <div class="flex flex-wrap -m-1 md:-m-2">
-                            <div class="flex flex-wrap w-1/2">
-                                <div class="w-1/2 p-1 md:p-2">
+                    <div className="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
+                        <div className="flex flex-wrap -m-1 md:-m-2">
+                            <div className="flex flex-wrap w-1/2">
+                                <div className="w-1/2 p-1 md:p-2">
                                     <Image
                                         alt="gallery"
-                                        class="block object-cover object-center w-full h-full rounded-lg"
+                                        className="block object-cover object-center w-full h-full rounded-lg"
                                         src={FinishedFrameTubes}
                                     />
                                 </div>
-                                <div class="w-1/2 p-1 md:p-2">
+                                <div className="w-1/2 p-1 md:p-2">
                                     <Image
                                         alt="gallery"
-                                        class="block object-cover object-center w-full h-full rounded-lg"
+                                        className="block object-cover object-center w-full h-full rounded-lg"
                                         src={SheetMetalFolding}
                                     />
                                 </div>
-                                <div class="w-full p-1 md:p-2">
+                                <div className="w-full p-1 md:p-2">
                                     <Image
                                         alt="gallery"
-                                        class="block object-cover object-center w-full h-full rounded-lg"
+                                        className="block object-cover object-center w-full h-full rounded-lg"
                                         src={MidWheelNut}
                                     />
                                 </div>
                             </div>
-                            <div class="flex flex-wrap w-1/2">
-                                <div class="w-full p-1 md:p-2">
+                            <div className="flex flex-wrap w-1/2">
+                                <div className="w-full p-1 md:p-2">
                                     <Image
                                         alt="gallery"
-                                        class="block object-cover object-center w-full h-full rounded-lg"
+                                        className="block object-cover object-center w-full h-full rounded-lg"
                                         src={FinishedWheelNut}
                                     />
                                 </div>
-                                <div class="p-1 md:p-2">
+                                <div className="p-1 md:p-2">
                                     <Image
                                         alt="gallery"
-                                        class="block object-cover object-center w-full h-full rounded-lg"
+                                        className="block object-cover object-center w-full h-full rounded-lg"
                                         src={ThreadedInsertDrawing}
                                     />
                                 </div>
@@ -141,10 +141,10 @@ const lhr2122 = () => {
                                 Work
                             </p>
                         </div>
-                        <div class="p-1 md:p-2">
+                        <div className="p-1 md:p-2">
                             <Image
                                 alt="gallery"
-                                class="block object-cover object-center w-full h-full rounded-lg"
+                                className="block object-cover object-center w-full h-full rounded-lg"
                                 src={WheelNutStock}
                             />
                         </div>
